@@ -1,0 +1,55 @@
+.countdown-container {
+  background-image: url("https://1.bp.blogspot.com/-4AlD3W7LuaE/YAxiU5N5gEI/AAAAAAAAA7s/Qh2e1X4K9poPluyS8HAAO2WiLQ9eqKUfACLcBGAsYHQ/s16000/66.jpg");
+  padding: 54px;
+  color: #1d3357;
+  font-family: "Roboto", sans-serif;
+  width: 485px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: 0 4px 22px -8px rgba(0, 0, 0, 0.6);
+}
+
+.countdown-container .countdown-heading {
+  text-align: center;
+  font-size: 32px;
+  margin: 40px 0;
+}
+
+.countdown-container .countdown-details {
+  text-align: center;
+}
+
+.timer {
+  background: #6d33a6;
+  color: #f1faee;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.timer .number {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.timer .unit {
+  color: #a8dadc;
+}
+
+.countdown-btn {
+  background: #dc2e2e;
+  text-decoration: none;
+  padding: 16px 32px;
+  display: block;
+  margin: 140px -24px -24px -24px;
+  color: #f1faee;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 500ms;
+}
+
+.countdown-btn:hover {
+  background: #52f520;
+}
